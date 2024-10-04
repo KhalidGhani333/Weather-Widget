@@ -1,11 +1,11 @@
 "use client"
 
-import { useState,ChangeEvent,FormEvent } from "react";
+import { useState,FormEvent } from "react";
 import { Card,CardHeader,CardDescription,CardTitle,CardContent } from "@/components/ui/card";
 import {Input} from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { CloudIcon,MapPinIcon,ThermometerIcon } from "lucide-react";
-import { loadBindings } from "next/dist/build/swc";
+
 
 
 interface Weather{
